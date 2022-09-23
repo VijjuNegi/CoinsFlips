@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import classes from "../../utils/css/components/Home.module.css";
-// import CurrencyExchangeIcon from "@mui/icons-material/CurrencyExchange";
 
 const Home = (props) => {
   const [coins, setCoins] = useState();
@@ -54,7 +53,6 @@ const Home = (props) => {
         <div className="row">
           <div className="col"></div>
           <div className="col text-center">
-            {/* <CurrencyExchangeIcon /> */}
             <div className="row"></div>
             <div className="row">
               <h2 className="text-center">I LIKE</h2>
